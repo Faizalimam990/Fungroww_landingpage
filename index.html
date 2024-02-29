@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fungroww Landing Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    
+<style>
+    @import url('https://fonts.google.com/specimen/Inter');
+    .ll{
+        background-color: rgb(7,171,103);
+        width: 100%;
+        font-family: sans-serif;
+    }
+    .kl{
+        background-color: rgb(7,171,103);
+
+    }
+    .c1{
+        background-color: rgb(18,30,44);
+    }
+    .nav-link{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 30px;
+        font-size: 20px;
+        color: white;
+    }
+    .display-4
+    {
+        font-family:'Inter', sans-serif;
+        font-weight:700px;
+
+        Color:#a5aeb8;
+    }
+    .btn{
+        border-radius: 100px;
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+    .orbiting-image {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            top: 50%;
+            left: 50%;
+            margin-top: -25px; /* Half of the height */
+            margin-left: -25px; /* Half of the width */
+            background-color: #3498db;
+            border-radius: 50%;
+            animation: rotateAnimation 5s linear infinite;
+        }
+        .rotate-image {
+            width: 200px; /* Adjust the size as needed */
+            height: 200px;
+            margin: 50px auto;
+            animation: rotateAnimation 5s linear infinite;
+        }
+
+        @keyframes rotateAnimation {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        .im{
+            
+            background-color: rgb(249,210,205);
+            
+
+        }
+        .card{
+         background-color: rgb(249,210,205);
+        }
+        .card{
+            border-radius: 100%;
+            width: 100%;
+            margin-left: 50px;
+            border: 1px solid aqua;
+            transform: rotate(360deg); 
+        }
+        
+        .kll{
+            background-image: url("bg.svg") ;
+            background-repeat: no-repeat;
+        }
+    @media only screen and (max-width: 600px) {
+
+  .display-4{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: white;
+  }
+  .mmn{
+    margin-left: 170px;
+    color: white;
+  }
+  .btn{
+    margin-right: 0;
+    width: 350px;
+  }
+}
+.card-text{
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.kltm{
+    background-color: rgb(184,237,252);
+    
+    border-radius: 100%;
+            width: 100%;
+            margin-left: 50px;
+            border: 1px solid aqua;
+            transform: rotate(360deg); 
+}
+.tttk{
+    background-color: rgb(255,239,193);
+    
+    border-radius: 100%;
+            width: 100%;
+            margin-left: 50px;
+            border: 1px solid aqua;
+            transform: rotate(360deg); 
+}
+.card::before {
+    content: '';
+    position: absolute;
+    top: -5%;
+    left: -4%;
+    width: 110%;
+    height: 110%;
+    border: 5px solid aqua;
+    border-radius: 50%;
+    animation: borderAnimation 5s linear infinite; /* Adjust duration and timing function as needed */
+}
+.card::after {
+    content: '';
+    position: absolute;
+    top: -5%;
+    left: -7%;
+    width: 110%;
+    height: 110%;
+    border: 5px solid rgb(236, 197, 229);
+    border-radius: 50%;
+    animation: borderAnimation 5s linear infinite; /* Adjust duration and timing function as needed */
+}
+@keyframes borderAnimation {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.bhh{
+    background-color: rgb(31,46,64);
+}
+</style>
+
+</head>
+<body>
+    <p class="text-center ll text-light mb-0 p-1" > As seen on Shark Tank India … loved by Teens, loved by parents, loved by companies and now loved by Sharks</p>
+ <div class="container-fluid mt-0 c1">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href="#"><img src="logo.svg" class="img-fluid" alt="" srcset=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mt-2" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link mmn" href="#">Teen<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mmn" href="#">Company </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mmn" href="#">Parent</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link kl text-light mr-5 btn btn-success" href="#">Company Login -></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h4 class="display-4 text-center mt-5 p-4">Funngro Teenlancer</h3>
+        <p class="text-light ml-5" style="font-family: sans-serif; font-size: 18px;"> Smart Teenagers meet Smart Companies</p>
+        <div class="container-fluid p-5">
+            <div class="row ml-5 kll">
+                <div class="col-md-3 ml-5">
+                    <div class="card  p-5" style="width: 18rem; ">
+                        <img class="card-img-top " src="tt1.png" style="width: 125px; margin-left: 30px;" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">TEEN</h5>
+                          <p class="card-text text-center">BE INDEPENDENT.</p>
+                        
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 ml-5">
+                    <div class="card kltm p-5" style="width: 18rem; ">
+                        <img class="card-img-top " src="c1.png" style="width: 100px; margin-left: 40px;" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Company</h5>
+                          <p class="card-text text-center">Smart Talent Solution.</p>
+                        
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 ml-5">
+                    <div class="card p-5 tttk" style="width: 18rem; ">
+                        <img class="card-img-top " src="par.png" style="width: 100px; margin-left: 40px;" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Parent</h5>
+                          <p class="card-text text-center">Experiental Learning For teens.</p>
+                        
+                        </div>
+                      </div>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    
+ </div>
+
+ <div class="container-fluid bhh">
+    <div class="container-fluid p-5">
+        
+    <h4 class="display-4 text-center text-light  font-weight-bold">Funngro @ Shark Tank</h4>
+    <p class="text-center text-light" style="font-family: sans-serif;">Lakhs of Teens love Funngro, Hundreds of Companies love Funngro and now Sharks also loved Funngro.</p>
+
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/I0XgtabN8rI" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    
+    
+ </div>
+ <div class="container-fluid c1">
+<p class="text-center text-light p-3 mb-0">     ©All Copyrights reserved 2023 by <a href="http://" style="color: aquamarine;">Flazetech Technologies </a> </p>
+
+
+ </div>
+</body>
+</html>
